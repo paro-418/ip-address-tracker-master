@@ -1,12 +1,8 @@
-
-import './App.css';
+import "./App.css";
+import UI from "./components/UI/UI";
 
 function App() {
-  return (
-    <div className="App">
-     hello
-    </div>
-  );
+  return <UI />;
 }
 
 export default App;
