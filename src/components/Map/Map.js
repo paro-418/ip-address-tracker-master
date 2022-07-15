@@ -1,4 +1,6 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import positionContext from "../../contexts/data";
+import { useContext } from "react";
 
 const Map = () => {
   let position = [24.1913, 86.2996];
