@@ -1,6 +1,6 @@
 const Info = () => {
   return (
-    <div className=" absolute top-full -translate-y-2/4 z-10 bg-white w-3/4 h-1/2 flex justify-between p-4 rounded-lg ">
+    <div className=" absolute top-full -translate-y-2/4 z-[1000] shadow-xl bg-white w-3/4 h-1/2 flex justify-between p-4 rounded-lg ">
       <span className="border-r border-gray-400 flex-grow flex flex-col justify-evenly items-center">
         <h5 className="uppercase font-semibold text-sm text-gray-400">
           ip address

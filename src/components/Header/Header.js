@@ -4,7 +4,7 @@ import Info from "./Info";
 
 const Header = () => {
   return (
-    <header className="bg-header-bg bg-cover relative  min-h-[30vh] flex flex-col items-center  gap-8">
+    <header className="bg-header-bg bg-cover relative  basis-[30vh] flex flex-col items-center  gap-8">
       <h1 className="text-4xl mt-4 text-white">IP Address Tracker</h1>
       <Form />
       <Info />
