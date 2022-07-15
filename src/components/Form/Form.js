@@ -14,13 +14,13 @@ const Form = () => {
   return (
     <form
       onSubmit={submitHandler}
-      className="flex items-center justify-center w-2/4 rounded-lg overflow-hidden"
+      className="flex items-center justify-center sm:w-2/4 rounded-lg overflow-hidden"
     >
       <input
         type="text"
         ref={inputRef}
         placeholder="Search for any IP address or domain"
-        className="basis-[90%] p-2"
+        className= " sm:basis-[90%] p-2"
       />
       <Button className="basis-[10%] flex items-center justify-center bg-black p-[0.80rem]">
         <svg width="11" height="14">
