@@ -20,7 +20,7 @@ const Info = () => {
           location
         </h5>
         <p className="text-sm">{ptnCtx.allInfo.location.region}, {ptnCtx.allInfo.location.country
-        } {ptnCtx.allInfo.asn}</p>
+        } {ptnCtx.allInfo.asn ? ptnCtx.allInfo.asn : ""}</p>
       </span>
       <span className="sm:border-r sm:border-gray-400 flex-grow flex flex-col justify-evenly items-center p-3 text-sm">
         <h5 className="uppercase font-semibold text-sm text-gray-400 ">

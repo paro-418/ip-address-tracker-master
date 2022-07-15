@@ -8,7 +8,6 @@ const positionContext = React.createContext({
 
 export const PositionContextProvider = (props) => {
   const [currentIP, setCurrentIP] = useState("");
-  console.log(currentIP);
   const [position, setPosition] = useState([]);
   const [allInfo, setAllInfo] = useState({
     ip: undefined,
@@ -39,7 +38,7 @@ export const PositionContextProvider = (props) => {
         ip: data.ip,
         location: data.location,
         isp: data.isp,
-        asn: data.as.asn,
+        asn: data.as ? data.as.asn : "NO ASN",
       });
     };
 

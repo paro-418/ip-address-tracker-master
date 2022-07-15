@@ -9,6 +9,7 @@ const Form = () => {
   const submitHandler = (event) => {
     event.preventDefault();
     ptnCtx.getIP(inputRef.current.value)
+    inputRef.current.value = "";
   };
 
   return (
